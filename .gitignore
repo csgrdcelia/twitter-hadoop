@@ -30,3 +30,7 @@ build
 
 #general
 *.class
+
+# app
+results
+application.properties
