@@ -1,5 +1,4 @@
 package com.Ingeniance.spark
-import java.io.FileNotFoundException
 import java.util.Properties
 import org.apache.spark.streaming._
 import org.apache.spark.streaming.twitter._
@@ -21,10 +20,9 @@ object Main extends App {
   System.setProperty("twitter4j.oauth.accessToken", properties.getProperty("accessToken"))
   System.setProperty("twitter4j.oauth.accessTokenSecret", properties.getProperty("accessTokenSecret"))
 
-  val ssc = new StreamingContext("local[*]", "PrintTweets", Seconds(1))
+  val streamingContext = new StreamingContext("local[*]", "PrintTweets", Seconds(1))
 
-  val filters = Array("COVID19")
-  val tweets = TwitterUtils.createStream(ssc, None, filters)
+  val tweets = TwitterUtils.createStream(streamingContext, None)
 
   val statuses = tweets.map(status => status.getText())
   statuses.print()
@@ -33,11 +31,11 @@ object Main extends App {
 
   englishTweets.foreachRDD{ (x, time) =>
     if(!x.isEmpty){
-      x.saveAsTextFile("results/tweets/file" + time )
+      x.saveAsTextFile("results/tweets/file" + time)
     }
   }
 
-  ssc.start()
-  ssc.awaitTermination()
+  streamingContext.start()
+  streamingContext.awaitTermination()
 
 }
