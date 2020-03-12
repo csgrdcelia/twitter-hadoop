@@ -1,4 +1,4 @@
-name := "twitter-hadoop"
+name := "tweet_receiver"
 
 version := "0.1"
 
