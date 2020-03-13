@@ -32,6 +32,8 @@ spark-submit --class Main jar
 
 L'exécution est plannifiée à l'aide de Oozie et Hue. Il est configuré pour être lancé à tous les changement d'heure (ex `19:00`).
 
+Les fichiers de configurations pour Oozie sont trouvables dans le répertoire tweet_analysis/oozie
+
 
 ## Difficultés...
 Beaucoup de soucis avec SBT! 
