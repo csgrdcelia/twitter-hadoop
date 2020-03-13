@@ -35,7 +35,7 @@ object Main extends App {
 
     englishTweets.foreachRDD { (x, time) =>
       if (!x.isEmpty) {
-        x.repartition(1).saveAsTextFile("results/tweets/file" + time.milliseconds)
+        x.repartition(1).saveAsTextFile("results/tweets/time=" + time.milliseconds)
       }
     }
 
