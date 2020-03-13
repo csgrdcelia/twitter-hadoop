@@ -1,0 +1,227 @@
+[
+{
+  "model": "desktop.document2",
+  "pk": 3,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "",
+    "description": "",
+    "uuid": "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+    "type": "directory",
+    "data": "{}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-10T09:33:01",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": null,
+    "dependencies": []
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 4,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": ".Trash",
+    "description": "",
+    "uuid": "868e1f53-5550-47f6-93e6-d5c78a68c2f7",
+    "type": "directory",
+    "data": "{}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-10T09:33:01",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": []
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 82,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "tweet_analysis_workflow",
+    "description": "",
+    "uuid": "088be736-0aba-17b2-472d-8009b2ac256b",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\", \"size\": 12}], \"id\": \"29f6169a-7dee-d4b9-6cfb-e4fcaaf514dd\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"6c38a0d5-df6e-bf7e-efc4-e593d21c3577\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\", \"size\": 12}], \"id\": \"29f6169a-7dee-d4b9-6cfb-e4fcaaf514dd\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"a7077431-45b6-0e08-93ca-a1f7aee96bf9\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"a2c68e06-5c10-680a-d637-fdea98f5ec83\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"a7077431-45b6-0e08-93ca-a1f7aee96bf9\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"a2c68e06-5c10-680a-d637-fdea98f5ec83\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"6c38a0d5-df6e-bf7e-efc4-e593d21c3577\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"dd2c420e-4c7b-824e-1d91-1708a42338ca\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584012938.59\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"tweet_analysis_workflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"spark-04f6\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [{\"value\": \"/user/noname/tweet_analysis.jar\"}], \"job_xml\": \"\", \"app_name\": \"MySpark\", \"spark_opts\": \"\", \"retry_interval\": [], \"class\": \"\", \"retry_max\": [], \"job_properties\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"spark_master\": \"yarn\", \"mode\": \"client\", \"prepares\": [], \"credentials\": [], \"jars\": \"tweet_analysis.jar\", \"spark_arguments\": [], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"spark-widget\", \"id\": \"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\", \"actionParameters\": []}], \"id\": 82, \"nodeNamesMapping\": {\"04f68d7b-60f6-01f1-dfa7-caeda34b0c63\": \"spark-04f6\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"088be736-0aba-17b2-472d-8009b2ac256b\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:44:56",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "33a93ef2-82ad-4df2-99ea-49a63582d837",
+        1,
+        true
+      ],
+      [
+        "d3126119-f6d6-4b1c-876f-7ffe901a43c3",
+        1,
+        true
+      ],
+      [
+        "1670d435-9fb3-4bac-a71a-6f883ecab42e",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 88,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "My Schedule",
+    "description": "",
+    "uuid": "67f6cc0e-467c-aab5-e2fa-1c949d1b7699",
+    "type": "oozie-coordinator2",
+    "data": "{\"properties\": {\"job_xml\": \"\", \"timeout\": null, \"document\": null, \"end\": \"${end_date}\", \"description\": \"\", \"frequency_number\": 1, \"workflow\": \"088be736-0aba-17b2-472d-8009b2ac256b\", \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584017777.85\", \"cron_frequency\": \"0 * * * *\", \"frequency_unit\": \"days\", \"schema_version\": \"uri:oozie:coordinator:0.2\", \"cron_advanced\": false, \"start\": \"${start_date}\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}, {\"name\": \"start_date\", \"value\": \"2020-03-12T05:56\"}, {\"name\": \"end_date\", \"value\": \"2020-03-19T05:56\"}], \"concurrency\": 0, \"timezone\": \"Europe/Paris\", \"credentials\": [], \"throttle\": 0, \"execution\": \"FIFO\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"name\": \"My Schedule\", \"end_date\": {\"name\": \"end_date\", \"value\": \"2020-03-19T05:56\"}, \"variables\": [], \"start_date\": {\"name\": \"start_date\", \"value\": \"2020-03-12T05:56\"}, \"showAdvancedFrequencyUI\": true, \"isManaged\": false, \"variablesUI\": [\"parameter\", \"input_path\", \"output_path\"], \"workflowParameters\": [], \"isDirty\": true, \"id\": null, \"uuid\": \"67f6cc0e-467c-aab5-e2fa-1c949d1b7699\"}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-12T05:56:42",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "088be736-0aba-17b2-472d-8009b2ac256b",
+        1,
+        false
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 203,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "Tweet Analysis Workflow",
+    "description": "",
+    "uuid": "58170533-2e93-1d3f-6b81-ca2f11c76133",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\", \"size\": 12}], \"id\": \"c750ba13-9114-12a6-73d6-612820d97140\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"655a07dc-635f-20e9-5a42-2217097a3f1e\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\", \"size\": 12}], \"id\": \"c750ba13-9114-12a6-73d6-612820d97140\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"85ec245b-be6a-6d9c-dbd5-30c766e442e0\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"ed2423b9-22b1-8e33-d720-0fd4771e4518\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"85ec245b-be6a-6d9c-dbd5-30c766e442e0\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"ed2423b9-22b1-8e33-d720-0fd4771e4518\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"655a07dc-635f-20e9-5a42-2217097a3f1e\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"f4c21af2-ec74-e6fc-5c7a-23b690d951ea\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584120586.04\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"Tweet Analysis Workflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": [], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\"]}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"spark-45ef\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [{\"value\": \"user/noname/tweet_analysis.jar\"}], \"job_xml\": \"\", \"app_name\": \"MySpark\", \"spark_opts\": \"\", \"retry_interval\": [], \"class\": \"\", \"retry_max\": [], \"job_properties\": [], \"spark_arguments\": [], \"spark_master\": \"yarn\", \"mode\": \"client\", \"prepares\": [], \"credentials\": [], \"jars\": \"tweet_analysis.jar\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"spark-widget\", \"id\": \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\", \"actionParameters\": []}], \"id\": null, \"nodeNamesMapping\": {\"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"45ef2b28-bb8e-a51b-f88e-cea14b4d0a94\": \"spark-45ef\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\"}, \"uuid\": \"58170533-2e93-1d3f-6b81-ca2f11c76133\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:30:46",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "71688e8e-b4c9-4cb5-96f7-b0558e4c1831",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 205,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "Tweet Analysis Schedule",
+    "description": "",
+    "uuid": "42a34cbd-4375-ab1f-b8d6-e76b465f972b",
+    "type": "oozie-coordinator2",
+    "data": "{\"end_date\": {\"name\": \"end_date\", \"value\": \"2020-03-20T10:31\"}, \"variables\": [], \"isDirty\": true, \"showAdvancedFrequencyUI\": false, \"isManaged\": false, \"variablesUI\": [\"parameter\", \"input_path\", \"output_path\"], \"workflowParameters\": [], \"properties\": {\"job_xml\": \"\", \"timeout\": null, \"document\": null, \"end\": \"${end_date}\", \"description\": \"\", \"frequency_number\": 1, \"workflow\": \"58170533-2e93-1d3f-6b81-ca2f11c76133\", \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584120694.82\", \"cron_frequency\": \"0 * * * *\", \"frequency_unit\": \"days\", \"schema_version\": \"uri:oozie:coordinator:0.2\", \"cron_advanced\": false, \"start\": \"${start_date}\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}, {\"name\": \"start_date\", \"value\": \"2020-03-13T10:31\"}, {\"name\": \"end_date\", \"value\": \"2020-03-20T10:31\"}], \"concurrency\": 0, \"timezone\": \"Africa/Ceuta\", \"credentials\": [], \"throttle\": 0, \"execution\": \"FIFO\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"42a34cbd-4375-ab1f-b8d6-e76b465f972b\", \"name\": \"Tweet Analysis Schedule\", \"id\": 205, \"start_date\": {\"name\": \"start_date\", \"value\": \"2020-03-13T10:31\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:35:15",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "58170533-2e93-1d3f-6b81-ca2f11c76133",
+        1,
+        false
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 206,
+  "fields": {
+    "owner": [
+      "noname"
+    ],
+    "name": "Tweet Analysis Workflow Test",
+    "description": "",
+    "uuid": "4700d23e-db41-5b8b-218b-302cb2709349",
+    "type": "oozie-coordinator2",
+    "data": "{\"end_date\": {\"name\": \"end_date\", \"value\": \"2020-03-20T10:33\"}, \"variables\": [], \"isDirty\": true, \"showAdvancedFrequencyUI\": true, \"isManaged\": false, \"variablesUI\": [\"parameter\", \"input_path\", \"output_path\"], \"workflowParameters\": [], \"properties\": {\"job_xml\": \"\", \"timeout\": null, \"document\": null, \"end\": \"${end_date}\", \"description\": \"\", \"frequency_number\": 1, \"workflow\": \"58170533-2e93-1d3f-6b81-ca2f11c76133\", \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584120797.89\", \"cron_frequency\": \"35 * * * *\", \"frequency_unit\": \"days\", \"schema_version\": \"uri:oozie:coordinator:0.2\", \"cron_advanced\": false, \"start\": \"${start_date}\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}, {\"name\": \"start_date\", \"value\": \"2020-03-13T10:33\"}, {\"name\": \"end_date\", \"value\": \"2020-03-20T10:33\"}], \"concurrency\": 0, \"timezone\": \"Europe/Paris\", \"credentials\": [], \"throttle\": 0, \"execution\": \"FIFO\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"4700d23e-db41-5b8b-218b-302cb2709349\", \"name\": \"Tweet Analysis Workflow Test\", \"id\": 206, \"start_date\": {\"name\": \"start_date\", \"value\": \"2020-03-13T10:33\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:36:44",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "2a80aed9-ca79-487a-ae00-b6805a4c9b1d",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "58170533-2e93-1d3f-6b81-ca2f11c76133",
+        1,
+        false
+      ]
+    ]
+  }
+}
+]
